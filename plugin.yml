@@ -1,0 +1,15 @@
+name: Sat
+main: sat\main
+author: playerhasan1903
+api: 4.0.0
+version: 1.0
+
+commands:
+  sat:
+    description: Satış menüsünü açar
+    permission: sat.open
+
+permissions:
+  sat.open:
+    description: Sat Open
+    default: true
